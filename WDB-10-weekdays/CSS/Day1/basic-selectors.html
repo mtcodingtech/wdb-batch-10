@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* universal */
+      * {
+        color: green;
+      }
+
+      /* type selector */
+      h2 {
+        background-color: hotpink;
+      }
+      /* id */
+      #heading5 {
+        background-color: red;
+        color: white;
+      }
+
+      /* class */
+      .para-style {
+        background-color: blueviolet;
+        color: white;
+      }
+      .center {
+        text-align: center;
+      }
+
+      /* attribute */
+      input[type="email"]{
+        background-color: yellow;
+      }
+      a[target]{
+        background-color: red;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="center">Heading 2</h2>
+    <h3 class="para-style center">Heading 3</h3>
+    <p class="para-style">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, sequi
+      obcaecati tempore fuga at maiores, fugit id a animi, quis voluptatum?
+      Tempora magni aspernatur adipisci ad vel quas, amet aperiam?
+    </p>
+    <h4 class="para-style">Heading 4</h4>
+
+    <h5 id="heading5" class="para-style">Heading 5</h5>
+    <hr />
+    <input type="text" />
+    <input type="email" />
+    <input type="password" />
+    <br>
+
+    <a href="#">Link 1</a>
+    <a href="#" target="_blank">Link 2</a>
+  </body>
+</html>
