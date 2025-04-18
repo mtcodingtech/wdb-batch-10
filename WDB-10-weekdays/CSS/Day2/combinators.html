@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Descendant  */
+        /* div p{
+            background-color: rgb(249, 143, 30);
+        } */
+
+        /* Child  */
+        /* div > p{
+            background-color: rgb(249, 143, 30);
+        } */
+
+        /* Next sibling */
+        /* div + p{
+            background-color: rgb(249, 143, 30);
+        } */
+
+        /* Subsequent-sibling  */
+        div ~ p{
+            background-color: rgb(249, 143, 30);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>P1 </p>
+        <p>P2</p>
+        <span>
+            <p>P1 in span</p>
+        </span>
+    </div>
+    <p>P1 outside</p>
+    <p>P2 outside</p>
+</body>
+</html>
