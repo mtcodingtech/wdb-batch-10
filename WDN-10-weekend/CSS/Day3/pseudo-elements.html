@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            font-size: 2rem;
+            color: red;
+        }
+        p::first-line{
+            background-color: yellow;
+        }
+        p::selection{
+            background-color: violet;
+          
+        }
+        h2::before{
+            content: "Hi "
+        }
+
+        h2::after{
+            content: "!";
+        }
+        input::placeholder{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos laborum dolor consectetur velit odio repellat, neque, ab est iste reiciendis facilis maxime cumque error! Incidunt officia ratione sed asperiores nulla.</p>
+    <h2>Heading 2</h2>
+
+    <input type="text" placeholder="Enter">
+</body>
+</html>
