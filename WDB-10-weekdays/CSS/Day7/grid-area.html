@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            max-width: 800px;
+            margin: 50px auto;
+            display: grid;
+            grid-template-areas: 
+            "header header header"
+            "aside content-1 content-1"
+            "aside content-2 content-3"
+            "footer footer footer"
+            ;
+            grid-template-rows: 50px 150px  150px 100px;
+            gap: 1rem;
+        }
+        header, footer{
+            background-color: blueviolet;
+        }
+        aside{
+            background-color: aquamarine;
+        }
+        .content{
+            background-color: rgb(245, 30, 76);
+        }
+        header{
+            grid-area: header;
+        }
+        aside{
+            grid-area: aside;
+        }
+        .content-1{
+            grid-area: content-1;
+        }
+        .content-2{
+            grid-area: content-2;
+        }
+        .content-3{
+            grid-area: content-3;
+        }
+        footer{
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Header</header>
+        <aside>Sidebar</aside>
+        <!-- .content-$*3{content-$} -->
+        <div class="content-1 content">content-1</div>
+        <div class="content-2 content">content-2</div>
+        <div class="content-3 content">content-3</div>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
