@@ -1,0 +1,15 @@
+$main-color: green;
+
+.main-container {
+  h1 {
+    background-color: $main-color;
+  }
+  .content {
+    p {
+      color: $main-color;
+    }
+  }
+  button {
+    border: 10px solid $main-color;
+  }
+}
