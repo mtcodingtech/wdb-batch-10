@@ -1,0 +1,18 @@
+$main-color: rgb(240, 142, 57);
+
+.main-container{
+    h1{
+        background-color: $main-color;
+    }
+    p{
+        color: $main-color;
+    }
+    button{
+        background-color: $main-color;
+    }
+    .box{
+        span{
+            background-color: $main-color;
+        }
+    }
+}
