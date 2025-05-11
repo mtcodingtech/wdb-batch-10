@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 960px;
+  margin: 3rem 1.5rem;
+}
+@media (min-width: 992px) {
+  .container {
+    margin: 0;
+  }
+}
+.container .intro-container {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  .container .intro-container {
+    max-width: 40%;
+  }
+}
+.container .intro-container h3,
+.container .intro-container h2 {
+  font-size: 1.5rem;
+}
+.container .intro-container h3 {
+  color: hsl(212, 6%, 44%);
+  font-weight: 200;
+}
+.container .intro-container h2 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+.container .intro-container p {
+  font-size: 0.7rem;
+  margin: 0.6rem 0;
+  color: hsl(212, 6%, 44%);
+}
+.container .card-container {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+@media (min-width: 992px) {
+  .container .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+.container .card-container .card {
+  flex-basis: 30%;
+  padding: 1rem;
+  box-shadow: 0 5px 10px #ddd;
+  border-top: 4px solid transparent;
+  border-radius: 5px;
+}
+.container .card-container .card h3 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+.container .card-container .card p {
+  line-height: 1.4;
+  font-size: 0.7rem;
+  color: hsl(212, 6%, 44%);
+  margin: 0.3rem 0;
+}
+.container .card-container .card .img-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 0;
+}
+.container .card-container .card .img-container img {
+  width: 50px;
+}
+@media (min-width: 992px) {
+  .container .card-container .card-1,
+  .container .card-container .card-4 {
+    transform: translateY(50%);
+  }
+}
+.container .card-container .card-1 {
+  border-top-color: hsl(180, 62%, 55%);
+}
+.container .card-container .card-2 {
+  border-top-color: hsl(0, 78%, 62%);
+}
+.container .card-container .card-3 {
+  order: 2;
+  border-top-color: hsl(34, 97%, 64%);
+}
+.container .card-container .card-4 {
+  order: 1;
+  border-top-color: hsl(212, 86%, 64%);
+}/*# sourceMappingURL=style.css.map */
