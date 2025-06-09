@@ -11,7 +11,8 @@ h3,
 h4,
 h5,
 h6,
-button {
+button, .service-container a {
+  color: hsl(212, 27%, 19%);
   font-family: "Fraunces", serif;
   font-optical-sizing: auto;
   font-weight: 900;
@@ -39,4 +40,19 @@ button {
 }
 .hero-section .arrow {
   width: 25px;
+}
+
+.service-section .service-container {
+  max-width: 350px;
+}
+.service-section .service-container h3 {
+  font-weight: 900;
+}
+.service-section .service-container p {
+  font-size: 14px;
+  color: hsl(232, 10%, 55%);
+}
+.service-section .service-container a {
+  font-size: 14px;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=style.css.map */

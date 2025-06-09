@@ -22,7 +22,8 @@ h3,
 h4,
 h5,
 h6,
-button {
+button, .service-container a {
+  color: $Grey-950;
   font-family: "Fraunces", serif;
   font-optical-sizing: auto;
   font-weight: 900;
@@ -47,5 +48,23 @@ button {
   }
   .arrow{
     width: 25px;
+  }
+}
+
+.service-section {
+  .service-container{
+    max-width: 350px;
+    h3{
+      font-weight: 900;
+    }
+    p{
+      font-size: 14px;
+      color: $Grey-550;
+      
+    }
+    a{
+      font-size: 14px;
+      letter-spacing:1px;
+    }
   }
 }
