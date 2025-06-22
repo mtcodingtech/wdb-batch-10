@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-color: hotpink;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  box-shadow: 0 4px 5px #333;
+  flex-basis: 300px;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card header {
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: var(--theme-color);
+  color: #fff;
+}
+.card .btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.card .btn-container button {
+  background-color: var(--theme-color);
+  margin: 1rem 0;
+  border: 0;
+  padding: 0.3rem 1rem;
+  color: #fff;
+  border-radius: 5px;
+}
+.card .theme-btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+.card .theme-btns .btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.card .theme-btns .btn1 {
+  background-color: rgb(215, 215, 12);
+}
+.card .theme-btns .btn2 {
+  background-color: rgb(117, 229, 83);
+}
+.card .theme-btns .btn3 {
+  background-color: rgb(163, 27, 190);
+}
+.card .theme-btns .btn4 {
+  background-color: rgb(226, 31, 37);
+}/*# sourceMappingURL=styles.css.map */
